@@ -1,0 +1,41 @@
+/*Cela force tous les éléments à être toujours dimensionnés de cette façon plus intuitive.*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+/*je pose ici un menu latéral que je vais fixer*/
+
+#menu-lateral
+{
+    width: 200px;
+    padding: 15 15 15 15;
+    border: solid black;
+    position: absolute;
+}
+
+/*Comme mon menu prends 200px de large, je vais aligner le reste de mon contenu à 200px left*/
+section
+{
+    margin-left: 205px;
+}
+
+/*je mets en forme ma première colonnes*/
+#colonne1
+{
+    max-width: 40%;
+    padding: 15 15 15 15;
+    border: solid black;
+    margin: 10 0 0 0;
+
+}
+
+/*Idem deuxième colonne*/
+#colonne2
+{
+    max-width: 40%;
+    padding: 15 15 15 15;
+    border: solid black;
+    margin: 10 0 0 0;
+}
